@@ -13,10 +13,10 @@ app.get('/tshirt', (req, res) =>{
 });
  //app.use("/user", user);
 
-app.listen(
+/* app.listen(
     PORT,
     () => console.log(`It´s alive on http://localhost:${PORT}`)
-);
+); */
 
 /*app.get('/tshirt', (req, res) =>{
     res.status(200).send(
