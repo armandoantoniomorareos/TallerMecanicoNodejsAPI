@@ -1,10 +1,16 @@
 const express = require('express');
 const { getUser } = require('./services/login');
-const user = require("./routes/user");
+//const user = require("./routes/user");
 const app = express();
 const PORT = 8080;
 
 app.use(express.json());
+app.get('/tshirt', (req, res) =>{
+    res.status(200).send({
+        tshirt:"asdasd",
+        size:"large"
+    });
+});
 /* app.use("/user", user);
 
 app.listen(
