@@ -5,7 +5,7 @@ const app = express();
 const PORT = 8080;
 
 app.use(express.json());
-app.use("/user", user);
+/* app.use("/user", user);
 
 app.listen(
     PORT,
@@ -32,4 +32,4 @@ app.post('/tshirt/:id', (req, res)=>{
     res.send({
         tshirt:`with your ${logo} and ID if ${id}`,
     });
-});
+}); */
