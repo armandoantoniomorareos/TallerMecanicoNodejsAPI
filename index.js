@@ -11,14 +11,14 @@ app.get('/tshirt', (req, res) =>{
         size:"large"
     });
 });
-/* app.use("/user", user);
+ app.use("/user", user);
 
 app.listen(
     PORT,
     () => console.log(`It´s alive on http://localhost:${PORT}`)
 );
 
-app.get('/tshirt', (req, res) =>{
+/*app.get('/tshirt', (req, res) =>{
     res.status(200).send(
         {
             tshirt:'tshirt',
