@@ -11,7 +11,7 @@ app.get('/tshirt', (req, res) =>{
         size:"large"
     });
 });
- app.use("/user", user);
+ //app.use("/user", user);
 
 app.listen(
     PORT,
